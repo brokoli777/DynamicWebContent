@@ -1,1 +1,1 @@
-A website for for Books that dynamically creates info cards for each books based on genre 
+A website for Books that dynamically creates info cards for each books based on genre 
