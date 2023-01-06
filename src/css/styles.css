@@ -1,0 +1,46 @@
+body {
+  background-image: url('../mistyLakeBackground.svg');
+}
+
+img
+{
+  width: 210px; 
+  height: 400px;
+  object-fit: cover;
+}
+
+.card {
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+  width: 24%;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  transition: 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 10px 26px 0 rgba(0,0,0,0.2);
+}
+
+
+.info-container {
+  padding: 2px 16px;
+}
+
+span
+{
+  font-size: larger;
+  font-weight: bolder;
+}
+
+#category-cards
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card-image
+{
+  width: 100%;
+}
